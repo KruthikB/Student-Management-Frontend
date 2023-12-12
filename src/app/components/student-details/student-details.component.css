@@ -1,0 +1,26 @@
+.details{
+    display: flex; /* Added this line to make navbar a flex container */
+    justify-content: center; /* Center its children on the main axis */
+    align-items: center;
+    justify-content: center; /* Center its children on the main axis */
+    align-items: center; /* Center its children on the cross axis */
+    padding: 0 15px;
+}
+.container{
+    max-width: 90%;
+    width: 90%;
+
+}
+
+.header-container{
+    font-size: 10px;
+    margin-top: 60px;
+      
+}
+.students-wrapper {
+    background-color: rgb(244, 243, 243);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(210, 210, 210);
+}

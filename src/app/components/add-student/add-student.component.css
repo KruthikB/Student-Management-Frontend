@@ -1,0 +1,46 @@
+.details{
+    display: flex; /* Added this line to make navbar a flex container */
+    justify-content: center; /* Center its children on the main axis */
+    align-items: center;
+    justify-content: center; /* Center its children on the main axis */
+    align-items: center; /* Center its children on the cross axis */
+    padding: 0 15px;
+}
+.container{
+    max-width: 90%;
+    width: 90%;
+
+}
+.header-container{
+    font-size: 10px;
+    margin-top: 60px;
+      
+}
+
+form{
+    box-shadow: 5px 5px 5px rgb(210, 210, 210);
+    padding: 20px;
+    border-radius: 10px;
+}
+form label{
+    display: block;
+    padding: 10px 0;
+}
+
+form input{
+    width: 90%;
+    height: 30px;
+}
+form select{
+    width: 90%;
+    height: 30px;
+}
+button{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(84, 84, 253);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}

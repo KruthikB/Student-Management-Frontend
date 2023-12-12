@@ -1,0 +1,40 @@
+.details{
+    display: flex; /* Added this line to make navbar a flex container */
+    justify-content: center; /* Center its children on the main axis */
+    align-items: center;
+    justify-content: center; /* Center its children on the main axis */
+    align-items: center; /* Center its children on the cross axis */
+    padding: 0 15px;
+}
+.container{
+    max-width: 90%;
+    width: 90%;
+
+}
+.header-container{
+    font-size: 10px;
+    margin-top: 60px;
+      
+}
+
+table{
+    width: 100%;
+}
+tr{
+    text-align: left;
+    background-color: rgb(244, 243, 243);
+    border: 5px grey;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    padding: none;
+    margin: none;
+    border: none;
+}
+td a{
+    text-decoration: none;
+    color: blue;
+}

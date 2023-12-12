@@ -1,0 +1,26 @@
+<div class="details">
+    <div class="container">
+        <div class="header-container">
+            <h1>Add Student</h1>
+        </div>
+    
+        <form (submit)="onSubmit()">
+            <label for="name">Name:</label>
+            <input type="text" name="Name" id="name" [(ngModel)]="student.name">
+            
+            <label for="department">Department:</label>
+            <select name="departments" id="department" [(ngModel)]="student.department">
+                <option value="" selected>Select Department</option>
+                <option value="Computer">Computer</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Law">Law</option>
+            </select>
+
+            <label for="phonenumber">Phone Number:</label>
+            <input type="number" name="phonenumber" id="phonenumber" [(ngModel)]="student.phoneNumber">
+            
+            <button type="submit">Add Student</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+.navbar {
+    height: 50px;
+    background-color: rgb(42, 42, 42);
+    display: flex; /* Added this line to make navbar a flex container */
+    justify-content: center; /* Center its children on the main axis */
+    align-items: center; /* Center its children on the cross axis */
+    padding: 0 15px;
+}
+
+.navbar .container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    width: 100%; /* Ensures that it takes full width up to its max-width */
+}
+
+.navbar h1 a{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
+  
+.links a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+  
+.links a:hover {
+    text-decoration: underline;
+}
