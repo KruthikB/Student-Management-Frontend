@@ -1,5 +1,4 @@
 
-```markdown
 # Student Management Portal
 
 The Student Management Portal is a simple student management system that enables users to add and view student details. This project serves as a basic implementation of the Angular framework for the frontend and Spring Boot for the backend.
